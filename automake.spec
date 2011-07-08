@@ -8,7 +8,7 @@
 Summary:    A GNU tool for automatically creating Makefiles
 Name:       automake
 Version:    %{api_version}.1
-Release:    1.2%{?dist}
+Release:    2%{?dist}
 License:    GPLv2+ and GFDL
 Group:      Development/Tools
 Source:     http://ftp.gnu.org/gnu/automake/automake-%{version}.tar.bz2
@@ -82,6 +82,9 @@ fi
 %dir %{_datadir}/aclocal
 
 %changelog
+* Fri Jul 8 2011 Clint Savage <herlo1@gmail.com> 1.11.1-2
+- Rebuilding for GoOSe 6.0
+
 * Wed Jun 23 2010 Karsten Hopp <karsten@redhat.com> 1.11.1-1.2
 - fix release number
 
